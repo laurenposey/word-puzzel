@@ -9,7 +9,22 @@
     <title>Word Puzzle</title>
   </head>
   <body>
-
-    
+    <div class="container">
+      <h1 class="jumbotron text-center">Word <span class="text-danger">Puzzle</span>...</h1>
+      <form id="wordPuzzle">
+        <div class="form-group">
+          <label for="#word">Input Sentence:</label>
+          <input id="word" class="form-control" type="text">
+        </div>
+        <div>
+          <button id="submit" class="btn btn-success">Submit</button>
+        </div>
+      </form>
+      <div id="noVowels">
+        <h3>Your favorite things:</h3>
+        <p id="vowelFree">
+        </p>
+      </div>
+    </div>
   </body>
 </html>
